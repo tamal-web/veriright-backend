@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+langgraph
+langchain-core
+langchain-openai
+pymupdf
+typing-extensions
