@@ -1,0 +1,23 @@
+[project]
+name = "veriright-backend"
+version = "0.1.0"
+description = "VeriRight Document Auditing Backend"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.100",
+    "uvicorn>=0.23",
+    "pydantic>=2.4",
+    "sqlalchemy>=2.0",
+    "psycopg2-binary>=2.9",
+    "alembic>=1.12",
+    "pgvector>=0.2",
+    "pymupdf>=1.23",
+    "python-docx>=1.1",
+    "unstructured>=0.10",
+    "langgraph>=0.0.26",
+    "langchain>=0.1",
+    "langchain-openai>=0.1",
+    "langchain-core>=0.1",
+    "redis>=5.0",
+]
